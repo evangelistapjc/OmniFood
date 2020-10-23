@@ -296,7 +296,6 @@ header {
 .main-nav-icon {
     position: absolute;
     cursor: pointer;
-    /* display: none; */
     margin-right: -35px;
     top: 1vh;
     right: 0;

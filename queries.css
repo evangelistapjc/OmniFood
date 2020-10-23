@@ -1,3 +1,5 @@
+/* THIS FILE IS RESPONSIBLE FOR ADJUSTING THE CSS COMPONENTS DEPENDING ON YOUR BROWSER DIMENSIONS */
+
 /* Minor adjustments: HEADER */
 @media only screen and (max-width: 1600px) {
     /* HEADER */
@@ -434,11 +436,10 @@
     }
 }
 
-/* Small phones and tablets: 501 - 767px */
+/* Minor adjustments: HEADINGS */
 @media only screen and (max-width: 650px) {
     /* HEADINGS */
     .main-nav {
-        /* margin-top: 10px; */
         font-size: 100%;
     }
 
@@ -454,7 +455,7 @@
     }
 }
 
-/* @media only screen and (max-width: 609px) {} */
+/* Minor adjustments: INTRO */
 @media only screen and (max-width: 609px) {
     /* INTRO */
     h1 {
@@ -470,6 +471,7 @@
     }
 }
 
+/* Minor adjustments: HEADINGS, INTRO, PLANS, CONTACT, FOOTER */
 @media only screen and (max-width: 550px) {
     /* HEADINGS */
     body {
@@ -505,9 +507,4 @@
     .socials-nav li a:visited {
         font-size: 350%;
     }
-}
-
-/* Small phones: 0 - 500px */
-@media only screen and (max-width: 500px) {
-    
 }
