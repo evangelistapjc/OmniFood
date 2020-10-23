@@ -1,0 +1,513 @@
+/* Minor adjustments: HEADER */
+@media only screen and (max-width: 1600px) {
+    /* HEADER */
+    .main-nav {
+        margin-right: -30px;
+    }
+}
+
+/* Minor adjustments: HEADINGS, HEADER */
+@media only screen and (max-width: 1400px) {
+    /* HEADINGS */
+    h1 {
+        font-size: 325%;
+    }
+
+    /* HEADER */
+    .main-nav {
+        margin-right: 0px;
+    }
+}
+
+/* Big tablets and laptop screens: 1024 - 1200px */
+@media only screen and (max-width: 1200px) {
+    /* HEADINGS */
+    h1 {
+        font-size: 300%;
+    }
+
+    h3 {
+        font-size: 115%;
+    }
+
+    /* HOW STEPS */
+    .how-steps {
+        margin: 0;
+        font-size: 100%;
+    }
+
+    .how-steps p {
+        font-size: 105%;
+    }
+
+    .how-steps:last-of-type {
+        margin-bottom: 0px;
+    }
+
+    /* PLANS */
+    .plans-pricing {
+        font-size: 350%;
+    }
+    
+    .plans-pricing span {
+        font-size: 30%;
+        font-weight: 300;
+    }
+}
+
+/* Small tablet to big tablets: 768 - 1023px */
+@media only screen and (max-width: 1023px) {
+    /* HEADINGS */
+    body {
+        font-size: 18px;
+    }
+
+    /* HOW STEPS */
+    .how-steps {
+        font-size: 95%;
+        margin: 45px 0;
+    }
+}
+
+/* Minor adjustments: HOW STEPS, CITIES, CONTACT */
+@media only screen and (max-width: 992px) {
+    /* HOW STEPS */
+    .steps-box:first-child {
+        padding-right: 5%;
+    }
+    
+    .steps-box:last-child {
+        padding-left: 2%;
+    }
+    
+    .how-steps {
+        font-size: 95%;
+        margin: 10px 0;
+    }
+
+    .how-steps div {
+        font-size: 160%;
+        padding: 5px;
+        height: 60px;
+        width: 60px;
+    }
+
+    .app-stores {
+        width: 120%;
+    }
+
+    .app-iPhone {
+        width: 55%;
+    }
+
+    /* CITIES */
+    .section-cities img {
+        width: 100%;
+    }
+
+    .city-detail {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .city-detail:last-of-type {
+        margin-bottom: 25px;
+    }
+
+    .city-detail p,
+    .city-detail a {
+        margin-left: -5px;
+        font-size: 110%;
+    }
+
+    /* CONTACT */
+    label {
+        width: 100%;
+        text-align: right;
+    }
+}
+
+/* Minor adjustments: HEADINGS, PLANS */
+@media only screen and (max-width: 950px) {
+    /* HEADINGS */
+    h1 {
+        font-size: 250%;
+    }
+
+    /* PLANS */
+    .plans ul li {
+        font-size: 83%;
+    }
+
+    .plans ul li i {
+        margin-right: 2px;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+/* Minor adjustments: PLANS */
+@media only screen and (max-width: 845px) {
+    /* PLANS */
+    .plans-pricing {
+        font-size: 300%;
+    }
+    
+    .plans-pricing span {
+        font-size: 30%;
+    }
+}
+
+/* Small phones and tablets: 501 - 767px */
+@media only screen and (max-width: 767px) {
+    /* HEADINGS */
+    body {
+        font-size: 20px;
+    }
+
+    h1 {
+        font-size: 200%
+    }
+
+    h2 {
+        font-size: 175%;
+    }
+
+    h3 {
+        font-size: 130%;
+    }
+
+    section {
+        padding-top: 30px;
+    }
+
+    .section-how,
+    .section-cities,
+    .section-testimonials, 
+    .section-plans,
+    .section-form {
+        padding-bottom: 30px;
+    }
+
+    /* HEADER */
+    header {
+        height: 90vh;
+    }
+
+    .title-text {
+        transform: translate(0, 0);
+        text-align: center;
+        position: none;
+        margin-top: 30vh;
+        margin-left: 0%;
+    }
+
+    .main-nav {
+        font-size: 90%;
+        margin-top: 5px;
+        display: none;
+    }
+
+    .main-nav li {
+        padding-right: 10px;
+        display: block;
+    }
+
+    .main-nav li:last-child {
+        padding-right: 10px;
+    }
+
+    .main-nav li a {
+        font-size: 90%;
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding-bottom: 0px;
+    }
+
+    /* STICKY-NAV */
+    .sticky-nav .main-nav {
+        margin-right: 15px;
+        margin-bottom: 5px;
+    }
+    
+    .sticky-nav .white-logo {
+        display: none;
+    }
+    
+    .sticky-nav .black-logo {
+        display: inline-block;
+    }
+
+    .sticky-nav .main-nav-icon i {
+        display: block;
+        color: #555555;
+        margin-right: 15px;
+    }
+
+    .main-nav-icon {
+        display: inline;
+    }
+
+    .main-nav-icon i {
+        display: block;
+        color: #ffffff;
+    }
+
+    /* INTRO */
+    .intro-resize {
+        margin-top: 25px;
+    }
+
+    .section-intro .col-12 p {
+        font-size: 100%;
+        margin: 0 auto;
+        width: 85%;
+    }
+
+    /* PHOTOS MEALS */
+    .photos-meals-list li {
+        width: 50%;
+    }
+
+    /* HOW STEPS */
+    .steps-box {
+        margin-top: 10px;
+    }
+
+    .steps-box:first-child {
+        text-align: center;
+        padding-right: 0%;
+    }
+    
+    .steps-box:last-child {
+        padding-left: 0%;
+    }
+
+    .how-steps {
+        font-size: 100%;
+        margin: 30px 0;
+    }
+
+    .app-stores {
+        width: 100%;
+        text-align: center;
+    }
+
+    .app-iPhone {
+        width: 35%;
+    }
+
+    /* CITIES */
+    .city-detail {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .city-detail:last-of-type {
+        margin-bottom: 25px;
+    }
+
+    .city-detail p,
+    .city-detail a {
+        font-size: 100%;
+    }
+
+    /* TESTIMONIALS */
+    blockquote {
+        text-align: center;
+    }
+
+    .quote-resize {
+        margin-top: 25px;
+    }
+
+    .quote-resize:first-of-type {
+        margin-top: 0px;
+    }
+
+    cite {
+        margin-left: 180px;
+    }
+
+    /* PLANS */
+    .plans {
+        margin: 10px 10px;
+        text-align: center;
+    }
+
+    .plans h3 {
+        margin-bottom: 0;
+    }
+
+    .plans-pricing {
+        font-size: 400%;
+        margin-bottom: 0;
+    }
+    
+    .plans-pricing span {
+        font-size: 30%;
+    }
+
+    /* CONTACT */
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    label {
+        width: 100%;
+        text-align: center;
+    }
+    
+    label[for=name], 
+    label[for=email], 
+    label[for=find-us],
+    label[for=message] {
+        margin-top: 15px;
+    }
+
+    
+    input[type=text], 
+    input[type=email], 
+    textarea,
+    select {
+        width: 100%;
+    }
+    
+    .form-resize input[type=checkbox] {
+        margin-left: 135px;
+        max-width: 20px;
+        width: 100%;
+    }
+
+    .submit-resize {
+        text-align: center;
+    }
+
+    /* FOOTER */
+    .footer-container-resize {
+        width: 100%;
+    }
+
+    .footer-nav,
+    .socials-nav {
+        float: none;
+        text-align: center;
+    }
+
+    .footer-nav li a:link,
+    .footer-nav li a:visited,
+    .socials-nav li a:link,
+    .socials-nav li a:visited {
+        font-size: 130%;
+    }
+
+    .socials-nav li a:link,
+    .socials-nav li a:visited {
+        font-size: 400%;
+    }
+
+    .footer-nav li {
+        margin: 7px 7px;
+    }
+
+    .footer-nav li:first-child {
+        margin: 7px 7px 7px 0;
+    }
+
+    .footer-nav li:last-child {
+        margin: 7px 0 7px 7px;
+    }
+
+    .socials-nav li {
+        margin: 20px 20px;
+    }
+
+    .socials-nav li:first-child {
+        margin: 20px 20px 20px 0;
+    }
+
+    .socials-nav li:last-child {
+        margin: 20px 0 20px 20px;
+    }
+}
+
+/* Small phones and tablets: 501 - 767px */
+@media only screen and (max-width: 650px) {
+    /* HEADINGS */
+    .main-nav {
+        /* margin-top: 10px; */
+        font-size: 100%;
+    }
+
+    .main-nav li {
+        padding-right: 10px;
+        display: block;
+
+    }
+
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        border-bottom: none;
+    }
+}
+
+/* @media only screen and (max-width: 609px) {} */
+@media only screen and (max-width: 609px) {
+    /* INTRO */
+    h1 {
+        font-size: 180%
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    h3 {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    /* HEADINGS */
+    body {
+        font-size: 18px;
+    }
+
+    /* INTRO */
+    .section-intro .col-12 p {
+        font-size: 90%;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    /* PLANS */
+    .plans {
+        margin: 10px 30px;
+    }
+
+    /* CONTACT */
+    .form-resize input[type=checkbox] {
+        margin-left: 125px;
+    }
+    
+    /* FOOTER */
+    .footer-nav li a:link,
+    .footer-nav li a:visited,
+    .socials-nav li a:link,
+    .socials-nav li a:visited {
+        font-size: 110%;
+    }
+
+    .socials-nav li a:link,
+    .socials-nav li a:visited {
+        font-size: 350%;
+    }
+}
+
+/* Small phones: 0 - 500px */
+@media only screen and (max-width: 500px) {
+    
+}
